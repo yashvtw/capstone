@@ -136,6 +136,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "Loan Check Form",
+            "value": "loan-check-form"
           }
         ]
       }
