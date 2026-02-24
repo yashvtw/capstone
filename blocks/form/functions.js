@@ -42,5 +42,23 @@ function days(endDate, startDate) {
   return Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 }
 
+function calculateEMI(loanAmount, annualRate, tenure) {
+  const P = parseFloat(loanAmount);
+  const rate = parseFloat(annualRate);
+  const N = parseInt(tenure, 10);
+
+  if (!P || !rate || !N) return 0;
+
+  const r = (rate / 12) / 100;
+
+  const emi = (P * r * ((1 + r) ** N)) / (((1 + r) ** N) - 1);
+  return Math.round(emi);
+}
+
 // eslint-disable-next-line import/prefer-default-export
-export { getFullName, days, submitFormArrayToString };
+export { 
+  getFullName, 
+  days, 
+  submitFormArrayToString, 
+  calculateEMI,
+};
