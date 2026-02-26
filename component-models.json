@@ -140,6 +140,10 @@
           {
             "name": "Loan Check Form",
             "value": "loan-check-form"
+          },
+          {
+            "name": "Preview details",
+            "value": "preview-details"
           }
         ]
       }
