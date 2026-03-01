@@ -55,10 +55,19 @@ function calculateEMI(loanAmount, annualRate, tenure) {
   return Math.round(emi);
 }
 
+function maskMobileNumber(mobileNumber) {
+  if (!mobileNumber) {
+    return '';
+  }
+  const value = mobileNumber.toString();
+  return ` ${'*'.repeat(5)}${value.substring(5)}`;
+}
+
 // eslint-disable-next-line import/prefer-default-export
 export { 
   getFullName, 
   days, 
   submitFormArrayToString, 
   calculateEMI,
+  maskMobileNumber
 };
