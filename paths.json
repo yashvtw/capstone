@@ -1,8 +1,16 @@
 {
   "mappings": [
+<<<<<<< HEAD
     "/content/aem-boilerplate/:/"
   ],
   "includes": [
     "/content/aem-boilerplate/"
+=======
+    "/:/"
+  ],
+  "includes": [
+    "/content/",
+    "/content/dam/"
+>>>>>>> 79ca326 (Initial commit)
   ]
 }
