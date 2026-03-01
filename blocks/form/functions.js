@@ -63,11 +63,21 @@ function maskMobileNumber(mobileNumber) {
   return ` ${'*'.repeat(5)}${value.substring(5)}`;
 }
 
+function inrCurrencyFormat(value) {
+  return Number(value).toLocaleString('en-IN', {
+    style: 'currency',
+    currency: 'Rs',
+    maximumFractionDigits: 0,
+    minimumFractionDigits: 0,
+  });
+}
+
 // eslint-disable-next-line import/prefer-default-export
 export { 
   getFullName, 
   days, 
   submitFormArrayToString, 
   calculateEMI,
-  maskMobileNumber
+  maskMobileNumber,
+  inrCurrencyFormat
 };
