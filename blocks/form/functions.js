@@ -73,11 +73,11 @@ function inrCurrencyFormat(value) {
 }
 
 // eslint-disable-next-line import/prefer-default-export
-export { 
-  getFullName, 
-  days, 
-  submitFormArrayToString, 
+export {
+  getFullName,
+  days,
+  submitFormArrayToString,
   calculateEMI,
   maskMobileNumber,
-  inrCurrencyFormat
+  inrCurrencyFormat,
 };
