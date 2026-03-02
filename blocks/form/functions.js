@@ -66,7 +66,7 @@ function maskMobileNumber(mobileNumber) {
 function inrCurrencyFormat(value) {
   return Number(value).toLocaleString('en-IN', {
     style: 'currency',
-    currency: 'Rs',
+    currency: 'INR',
     maximumFractionDigits: 0,
     minimumFractionDigits: 0,
   });
