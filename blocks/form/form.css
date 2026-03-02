@@ -7,7 +7,7 @@
     --button-secondary-color: #666;
     --button-primary-hover-color: #035fe6;
     --form-font-size-m: 22px;
-    --form-font-size-s: 18px;
+    --form-font-size-s: 15px;
     --form-font-size-xs: 16px;
     --form-background-color: var(--background-color-primary);
     --form-padding: 0 10px;
@@ -801,4 +801,479 @@ main div.form-wrapper {
 /* Expand height for multi-select dropdowns (array types) */
 main .form form select[multiple] {
     height: calc(42px + 50px);
+}
+
+.loan-check-form .field-pan-dob-panel .field-wrapper {
+    margin-left: 0px;
+    margin-top: -78.5px;
+    height: 9rem;
+    width: 19rem;
+}
+
+.loan-check-form .field-income-source-help-text{
+    min-height: 22px;
+}
+
+.loan-check-form .field-income-source-help-text p p {
+    border: 1px solid #ed815a;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.loan-check-form .field-income-source-help-text p p {
+    font-size: 11px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+}
+
+.loan-check-form .radio-group-wrapper{
+  margin-left: 40px !important;
+}
+
+.loan-check-form .field-income-source-panel{
+    margin-top: -21px !important;
+}
+
+.loan-check-form .field-country-code-dropdown {
+    width: 67px;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    margin-left: 28px;
+}
+
+.loan-check-form .field-country-code-dropdown select {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+}
+
+.loan-check-form .field-mobile-number {
+    margin-left: -23px !important;
+}
+
+.loan-check-form .field-mobile-number input {
+    border-left: none !important;
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+.loan-check-form .field-description {
+    margin-left: -4rem;
+    line-height: 0px;
+}
+
+.loan-check-form .field-view-loan-eligibility-button button{
+    border-radius: 14px;
+}
+
+.loan-check-form .field-pancard-number input,
+.loan-check-form .field-mobile-number input,
+.loan-check-form .field-country-code-dropdown select,
+.loan-check-form .field-date-field input {
+    font-size: 14px;
+}
+
+.loan-check-form .field-login-terms-consition-checkbox input[type="checkbox"] {
+    width: 14px;
+}
+
+/* otp modal css */
+
+.field-otp-modal .field-otp-attempt-text{
+    margin-left: -49px !important;
+    margin-top: -18px !important;
+}
+
+.field-otp-modal .field-otp-timer {
+    margin-top: -18px !important;
+}
+
+.field-otp-modal .field-validate-otp-button button {
+    border-radius: 10px;
+    width: 13rem;
+}
+
+/* Preview page css */
+
+.field-preview-panel .field-loan-details,
+.field-preview-panel .field-personal-details{
+    border-radius: 0px 0px 25px 25px;
+    background-color: #fcfdff
+}
+
+.field-preview-panel .field-loan-details legend, 
+.field-preview-panel .field-personal-details legend {
+    border-radius: 25px 25px 0px 0px;
+    background-color: #e7eef7 !important
+}
+
+.field-preview-panel label {
+    font-size: 13px;
+    height: 32px;
+}
+
+.field-preview-panel .field-loan-details > .field-wrapper {
+    border-left: 4px solid #d9e2f3;
+    height: 63px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.field-preview-panel .field-personal-details > .field-wrapper {
+    border-left: 4px solid #d9e2f3;
+    height: 63px;
+    margin-left: 20px;
+    margin-top: 22px;
+}
+
+.field-preview-panel .field-loan-details input {
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+}
+
+.field-preview-panel .field-personal-details input {
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+}
+
+.field-preview-panel .field-loan-review-details-accordian {
+    height: 18rem;
+}
+
+.field-preview-panel .field-personal-details.field-wrapper {
+    height: 24.5rem;
+}
+
+.field-offer-panel .field-offer-display {
+    min-height: 90px;
+    background-color: #effffe;
+    padding-top: 33px;
+    margin-left: 3rem !important;
+    margin-top: 0rem !important;
+    width: 13rem !important;
+    font-size: 18px !important;
+}
+
+.field-offer-panel .field-title-loan-offer-panel {
+    background-color: #effffe;
+    border-radius: 2rem 2rem;
+}
+
+.field-offer-panel .field-loan-offer-image {
+    width: 7rem;
+    height: 7rem;
+    margin-left: 1rem !important;
+}
+
+.field-offer-panel .field-title-loan-offer-panel .field-loan-amount {
+    margin-left: -10.3rem;
+    width: 84%;
+    height: 4rem;
+    margin-top: 41px;
+}
+
+.field-offer-panel .field-title-loan-offer-panel .field-loan-amount input{
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.field-offer-panel .field-loan-offer-text p p,
+.field-offer-panel .field-title-loan-tenure-section p p {
+    font-size: 20px;
+}
+
+.field-offer-panel .field-range-loan-amount input[type="range"],
+.field-offer-panel .field-range-loan-tenure input[type="range"] {
+    background: #f5b859 !important;
+}
+
+.range-widget-wrapper .range-bubble {
+    border: 2px solid rgb(233, 229, 229) !important;
+    border-radius: 10px !important;
+    padding: 5px 20px !important;
+    font-size: 15px !important;
+}
+
+.field-offer-panel .field-breakup-chart {
+    background-color: #FEF9E6;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.field-offer-panel .field-breakup-chart .field-description-breakup-chart {
+    background-color: #ffb750;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 0px;
+}
+
+.field-offer-panel .field-breakup-chart .field-description-breakup-chart p p {
+    margin-left: 94px;
+    font-size: 11px;
+    margin-top: 14px;
+    color: white;
+}
+
+
+.field-offer-panel .field-breakup-chart .field-loan-amount {
+    height: 63px;
+    margin-left: 37px;
+    margin-top: 22px;
+    margin-right: 48px;
+}
+
+.field-offer-panel .field-breakup-chart .field-loan-amount label{
+    font-size: 17px !important;
+    font-weight: bold;
+    color: black;
+}
+
+.field-offer-panel .field-breakup-chart .field-loan-amount input {
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+    font-size: 37px;
+    font-weight: bold;
+    color: black;
+}
+
+.field-offer-panel .field-breakup-chart .field-emi-amount {
+    border-left: 4px solid #f5c36d;
+    height: 61px;
+    margin-left: 38px;
+    margin-top: 67px;
+}
+
+.field-offer-panel .field-breakup-chart .field-interest-rate {
+    border-left: 4px solid #f5c36d;
+    align-self: center;
+    height: 61px;
+    padding-top: 10p;
+    margin-top: 66px;
+}
+
+.field-offer-panel .field-breakup-chart .field-tenure {
+    border-left: 4px solid #f5c36d;
+    height: 61px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.field-offer-panel .field-breakup-chart .field-emi-amount input,
+.field-offer-panel .field-breakup-chart .field-interest-rate input,
+.field-offer-panel .field-breakup-chart .field-tenure input {
+    height: 30px;
+    margin-top: 5px;
+    border: none;
+    background: transparent;
+}
+
+.field-offer-panel .field-breakup-chart .field-emi-amount label,
+.field-offer-panel .field-breakup-chart .field-interest-rate label,
+.field-offer-panel .field-breakup-chart .field-tenure label{
+    margin-left: 10px;
+}
+
+.field-offer-panel .field-offerpage-proceed-btn button,
+.field-preview-panel .field-review-confirm-button button {
+    border-radius: 10px;
+    width: 13rem;
+}
+
+.field-application-no-panel .field-loan-app-no-panel {
+    border: 1px solid #d9cfcf;
+    border-radius: 20px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-loan-application-number {
+    height: 30px;
+    margin-top: 15px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-app-no-img picture{
+    margin-left: 10px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-app-no-img {
+    margin-top: 10px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-loan-app-no-field {
+    height: 31px;
+    margin-top: -63px;
+    margin-left: 96px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-loan-app-no-field input {
+    border: none;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-contact-note p {
+    margin-top: -16px;
+    margin-left: 23px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-loan-amount p p{
+    margin-left: 23px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-xpress-loan-summary{
+    margin-left: 28px;
+}
+.field-application-no-panel .field-loan-app-no-panel .field-loan-amount {
+    margin-top: -17px;
+    margin-left: 6px;
+}
+
+.field-application-no-panel .field-loan-app-no-panel .field-loan-amount input {
+    width: 10rem;
+    margin-left: 21px;
+    margin-bottom: 26px;
+    border: none;
+    font-size: 18px;
+    padding-top: 1px;
+    border-left: 4px solid #9191ef;
+}
+
+/* header css */
+
+
+.field-header-fragment .field-header-panel{
+    background-color: #091839;
+}
+
+.field-header-panel .field-help-us-message p p {
+    color: white;
+}
+
+.field-header-panel .field-help-us-message {
+    margin-left: 87px !important;
+}
+
+.field-header-panel .field-form-image-970923621771493192574{
+    width: 11rem;
+    margin-left: 41rem !important;
+}
+
+.field-header-panel .field-form-image-970923621771493192574{
+    width: 200px;
+    margin-left: 41rem;
+}
+
+
+/* footer css */
+
+.field-footer-panel .field-copyright-text{
+    text-align: center;
+}
+
+.field-footer-panel {
+    background-color: #091839;;
+}
+
+.field-footer-panel .field-copyright-text p p{
+    margin-top: 10px;
+    color: white;
+}
+
+/* Thank you page */
+
+.field-loan-application-summary .field-easy-loan-management {
+    background-color: aliceblue;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.field-loan-application-summary .field-easy-loan-management p,
+.field-loan-application-summary .field-easy-loan-management p p {
+    margin: 0;
+}
+
+.field-loan-application-summary .field-bank-app-url{
+    background-color: #fbfbfb !important;
+    margin-top: -15px !important;
+}
+
+.field-loan-application-summary .field-bank-app-url p{
+    margin-top: 18px;
+    margin-bottom: 17px;
+    margin-left: 18px;
+}
+
+.field-loan-application-summary .field-easy-loan-management{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.field-loan-application-summary .field-bank-app-url{
+    border-radius: 0px 0px 20px 20px;
+}
+
+.field-loan-application-summary .field-disbursal-note{
+    margin-left: 11px !important;
+    background-color: aliceblue;
+    height: 44px;
+    border-radius: 6px;
+}
+
+.field-loan-application-summary .field-disbursal-note p p{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.field-loan-application-summary .field-loan-app-no-field input{
+    font-size: 22px !important;
+    font-weight: bold !important;
+}
+
+.field-offer-panel .field-lo-off-title-amount input{
+    margin-left: -10.5rem;
+    margin-top: 43.3px;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.field-header-panel .field-bank-logo picture{
+    margin-left: 142px;
+}
+
+.field-header-panel .field-bank-logo {
+    margin-top: 23px !important;
+    margin-left: 28px !important;
+}
+
+.field-otp-modal .field-description {
+    margin-left: 0px;
+}
+
+.field-otp-modal .field-edit-no-field {
+    margin-left: -17rem !important;
+    margin-top: 3px !important;
+}
+
+.field-otp-modal .field-edit-no-field button{
+    color: blue;
+    box-shadow: none;
+    text-decoration: none;
+    color: inherit;
+    background: transparent !important;
+}
+
+.field-login-panel .field-mobile-number input,
+.field-login-panel .field-country-code-dropdown select{
+    outline: none;
+}
+
+.field-offer-panel .field-range-loan-tenure input[type="range"],
+.field-offer-panel .field-range-loan-amount input[type="range"] {
+  background-image: linear-gradient(to right,
+  #F79C32 calc(100% * var(--current-steps) / var(--total-steps)), #C5C5C5 calc(100% * var(--current-steps) / var(--total-steps))) !important;
 }
