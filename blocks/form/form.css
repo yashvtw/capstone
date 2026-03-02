@@ -779,8 +779,9 @@ main .form form .checkbox-group-wrapper.horizontal .field-description {
 main div.form-wrapper {
     background: white;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+    /* box-shadow: 0 4px 24px rgb(0 0 0 / 8%); */
+    box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Responsive adjustments for mobile */
@@ -1065,9 +1066,17 @@ main .form form select[multiple] {
     margin-top: 20px;
 }
 
+.field-offer-panel .field-breakup-chart .field-taxes {
+    border-left: 4px solid #f5c36d;
+    height: 61px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
 .field-offer-panel .field-breakup-chart .field-emi-amount input,
 .field-offer-panel .field-breakup-chart .field-interest-rate input,
-.field-offer-panel .field-breakup-chart .field-tenure input {
+.field-offer-panel .field-breakup-chart .field-tenure input,
+.field-offer-panel .field-breakup-chart .field-taxes input {
     height: 30px;
     margin-top: 5px;
     border: none;
@@ -1076,7 +1085,8 @@ main .form form select[multiple] {
 
 .field-offer-panel .field-breakup-chart .field-emi-amount label,
 .field-offer-panel .field-breakup-chart .field-interest-rate label,
-.field-offer-panel .field-breakup-chart .field-tenure label{
+.field-offer-panel .field-breakup-chart .field-tenure label,
+.field-offer-panel .field-breakup-chart .field-taxes label{
     margin-left: 10px;
 }
 

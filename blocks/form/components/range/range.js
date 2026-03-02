@@ -1,4 +1,5 @@
 import { subscribe } from '../../rules/index.js';
+
 function updateBubble(input, element) {
   const step = input.step || 1;
   const max = input.max || 0;
@@ -48,24 +49,21 @@ export default async function decorate(element, fieldJson, container, formId) {
   });
   updateBubble(input, div);
 
-    subscribe(element, formId, (fieldDiv, fieldModel) => {
+  subscribe(element, formId, (fieldDiv, fieldModel) => {
     fieldModel.subscribe((e) => {
       const { payload } = e;
       payload?.changes?.forEach((change) => {
- 
         if (change?.propertyName === 'value') {
           input.value = change.currentValue;
         }
- 
+
         if (change?.propertyName === 'maximum') {
           input.max = change.currentValue;
           rangeMaxEl.innerText = `${input.max}`;
         }
         updateBubble(input, div);
       });
- 
     });
- 
   });
 
   return element;

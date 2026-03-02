@@ -66,18 +66,18 @@ function maskMobileNumber(mobileNumber) {
 function inrCurrencyFormat(value) {
   return Number(value).toLocaleString('en-IN', {
     style: 'currency',
-    currency: 'Rs',
+    currency: 'INR',
     maximumFractionDigits: 0,
     minimumFractionDigits: 0,
   });
 }
 
 // eslint-disable-next-line import/prefer-default-export
-export { 
-  getFullName, 
-  days, 
-  submitFormArrayToString, 
+export {
+  getFullName,
+  days,
+  submitFormArrayToString,
   calculateEMI,
   maskMobileNumber,
-  inrCurrencyFormat
+  inrCurrencyFormat,
 };
