@@ -1014,10 +1014,11 @@ main .form form select[multiple] {
 }
 
 .field-offer-panel .field-breakup-chart .field-description-breakup-chart p p {
-    margin-left: 94px;
-    font-size: 11px;
+    margin-left: 8px;
+    font-size: 13px;
     margin-top: 14px;
     color: white;
+    text-align: center;
 }
 
 
@@ -1091,9 +1092,10 @@ main .form form select[multiple] {
 }
 
 .field-offer-panel .field-offerpage-proceed-btn button,
-.field-preview-panel .field-review-confirm-button button {
-    border-radius: 10px;
-    width: 13rem;
+.field-preview-panel .field-review-confirm-button button,
+.field-preview-panel .field-back-button button {
+    border-radius: 10px !important;
+    width: 13rem !important;
 }
 
 .field-application-no-panel .field-loan-app-no-panel {
@@ -1257,7 +1259,8 @@ main .form form select[multiple] {
 
 .field-header-panel .field-bank-logo {
     margin-top: 23px !important;
-    margin-left: 28px !important;
+    position: relative;
+    left: -8rem;
 }
 
 .field-otp-modal .field-description {
@@ -1270,10 +1273,10 @@ main .form form select[multiple] {
 }
 
 .field-otp-modal .field-edit-no-field button{
-    color: blue;
+    /* color: blue; */
     box-shadow: none;
     text-decoration: none;
-    color: inherit;
+    color: black !important;
     background: transparent !important;
 }
 
